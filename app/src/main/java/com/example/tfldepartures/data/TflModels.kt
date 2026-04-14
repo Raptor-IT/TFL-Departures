@@ -12,7 +12,6 @@ data class TflArrival(
     @SerializedName("timeToStation")   val timeToStation: Int
 )
 
-// Converts TfL's format into our own simpler format
 fun TflArrival.toDeparture() = Departure(
     id, stationName, lineName, platformName,
     towards, expectedArrival, timeToStation

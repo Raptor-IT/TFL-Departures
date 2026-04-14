@@ -1,6 +1,6 @@
 package com.example.tfldepartures.network
 
-import com.example.tfldepartures.data.TflArrival  // ← add this
+import com.example.tfldepartures.data.TflArrival
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
