@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
     private val viewModel: DepartureBoardViewModel by viewModels()
     private lateinit var adapter: DepartureAdapter
 
-    // ← REPLACE THESE WITH YOUR OWN VALUES
-    private val STOP_ID = "940GZZLUASL"   // ARESNAL tube station
+    // REPLACE VALUES
+    private val STOP_ID = "940GZZLUSTA" // ARESNAL tube station
     private val API_KEY = "17f32986a2cf4f269929b249a7e73747"
 
     override fun onCreate(savedInstanceState: Bundle?) {
