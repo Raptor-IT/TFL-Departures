@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var adapter: DepartureAdapter
 
     // REPLACE VALUES
-    private val STOP_ID = "940GZZLUSTA" // ARESNAL tube station
+    private val STOP_ID = "940GZZLUSTD" // Stratford tube station
     private val API_KEY = "17f32986a2cf4f269929b249a7e73747"
 
     override fun onCreate(savedInstanceState: Bundle?) {
